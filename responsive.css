@@ -1,0 +1,185 @@
+ /* medium layout : 1280px; */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .main{
+    width: 970px;
+  }
+  .about-area .single_about {
+    width: 293px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.services-area .single_service{
+  width: 303px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.single_portfolio{
+  width: 303px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.single_blog{
+  width: 303px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contact-area .single_address{
+  width: 323px;
+}
+.contact-area .contact_bottom .contact_form {
+  width: 550px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.contact-area .contact_map {
+  width: 390px;
+  margin-left: 10px;
+}
+}
+
+/* tablet layout : 768px; */
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+ .main{
+  width: 745px;
+  margin: 0 auto;
+ }
+ 
+ .header-area .logo a {
+  font-size: 18px;
+  font-weight: 600;
+}
+ .text-right{
+  width: 182px;
+ }
+.header-area .menu{
+  width: 500px;
+}
+
+.menu ul li a{
+  font-size: 14px;
+}
+.text-right{
+  width: 545px;
+}
+.banner_content p{
+  font-size: 12px;
+}
+.btn{
+  padding: 8px 30px;
+  font-size: 13px;
+}
+.single_about{
+  width: 228px;
+}
+.single_about p{
+  font-size: 13px;
+}
+.services-area .single_service{
+  width: 228px;
+}
+.services-area .single_service h4{
+  font-size: 17px;
+}
+.services-area .single_service p{
+  font-size: 13px;
+}
+.single_portfolio{
+  width: 228px;
+}
+.cta-area h4{
+  font-size: 35px;
+  font-weight: 600;
+}
+.cta-area p{
+  font-size: 13px;
+}
+.single_blog{
+  width: 228px;
+}
+
+.single_blog h4{
+  font-size: 22px;
+}
+.single_blog p{
+  font-size: 13px;
+}
+
+.contact-area .single_address{
+  width: 248px;
+}
+
+.single_address h5{
+  font-size: 25px;
+}
+
+.single_address h6{
+  font-size: 13px;
+}
+.contact-area .contact_bottom .contact_form input, .contact-area .contact_bottom .contact_form textarea {
+  width: 106%;
+}
+}
+
+
+ /* mobile layout : 320px; */
+@media only screen and (max-width: 767px) {
+  
+  .main{
+    width: 445px;
+   }
+   .text-right{
+    width: 100%;
+   }
+  .header-area .menu{
+    width: 100%;
+  }
+.logo{
+  margin-left: 145px;
+}
+  .menu ul li{
+    margin-top: 20px;
+  }
+  .header-area .menu ul li a{
+    font-size: 12px;
+  }
+  .banner_content h2{
+    font-size: 25px;
+  }
+   .single_about{
+    width: 100%;
+  }
+   .services-area .single_service{
+    width: 100%;
+  }
+   .single_portfolio{
+    width: 100%;
+  }
+   .single_blog{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .single_blog .blog_img{
+    width: 100%;
+  }
+   .contact-area .single_address{
+    width: 100%;
+  }
+  .contact-area .contact_bottom .contact_form {
+    width: 100%;
+  }
+
+  .contact-area iframe{
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+}
+
+ /* wide mobile layout: 480px; */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+ .main{
+  width: 450px;
+ }
+}

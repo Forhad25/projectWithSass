@@ -1,0 +1,29 @@
+.single_portfolio {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 380px;
+  height: 250px;
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  &:nth-child(3),
+  &:nth-child(6) {
+    margin-right: 0;
+  }
+   h4 {
+    position: absolute;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+}
+
+

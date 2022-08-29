@@ -1,0 +1,26 @@
+.footer-area {
+  background-color: $primary_color;
+  .footer{
+    p {
+      color: $white;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.scroll-top {
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  right: 20px;
+  bottom: 20px;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+}

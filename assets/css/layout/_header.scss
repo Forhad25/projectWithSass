@@ -1,0 +1,61 @@
+@import '../base/color';
+.logo {
+  float: left;
+  width: 200px;
+}
+// header area scss
+.header-area {
+  padding: 15px 0;
+  // background-color: $bg_gray;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  &.sticky {
+    background-color: $black;
+    padding: 15px 0;
+    border-bottom: 1px solid $border_gray;
+    a {
+      color: #333;
+    }
+    &.menu{
+      a{
+        color: $black;
+      }
+    }
+  }
+  .logo{
+     a {
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $white;
+      &:hover{
+        color: $primary_color;
+      }
+    }
+  }
+  .menu {
+    width: 970px;
+    margin-right: 30px;
+    ul{
+       li {
+        display: inline-block;
+        &.active a{
+          color: $primary_color;
+        }
+        a {
+          margin-left: 20px;
+          text-transform: uppercase;
+          color: $white;
+          &:hover{
+            color: $primary_color;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+
